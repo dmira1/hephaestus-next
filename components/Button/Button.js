@@ -4,11 +4,9 @@ import Styles from './styles.module.css'
 
 function Button ({children, ...props})  {
   return (
-        <div className={Styles.button}>
-           <h2>Button Component</h2>
-           {children}
-
-        </div>
+        <button className={Styles.button}>
+          {children}
+        </button>
   )
 }
 
